@@ -7,7 +7,7 @@ export default function Home() {
         <div className="flex h-screen items-center justify-center bg-gray-900 p-5">
             <div className="items-center gap-10 md:px-10">
             <div className="flex items-center justify-center">
-                <img src="src\assets\Amino.png" alt="" className="md:size-96 size-72 rounded-full " loading="eager"/>
+                <img src="/assets/Amino.png" alt="" className="md:size-96 size-72 rounded-full " loading="eager"/>
             </div>
             <div className="max-w-5xl">
                 <h1 className="mb-2 text-3xl font-bold text-white"><span className="text-emerald-600">Hi,</span> I'm Full Stack Developer</h1>
