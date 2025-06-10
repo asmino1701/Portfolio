@@ -1,4 +1,4 @@
-import { IconLinkedIn, IconGitHub, IconTwitter, IconInstagram } from "../components/icons/Icons";
+import { IconLinkedIn, IconGitHub, IconTwitter } from "../components/icons/Icons";
 
 export default function Contact() {
 return (
@@ -14,21 +14,17 @@ return (
             You can also follow me on my social networks:
         </p>
         <div className="flex justify-center space-x-5 mb-6">
-                <a href="" className="flex items-center flex-col text-blue-400 hover:underline" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/andr%C3%A9s-mi%C3%B1o-27319814a/" className="flex items-center flex-col text-blue-400 hover:underline" target="_blank" rel="noopener noreferrer">
                     <IconLinkedIn/>
                     LinkedIn
                 </a>
-                <a href="" className="flex items-center flex-col text-blue-400 hover:underline" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/asmino1701" className="flex items-center flex-col text-blue-400 hover:underline" target="_blank" rel="noopener noreferrer">
                     <IconGitHub/>
                     GitHub
                 </a>
-                <a href="" className="flex items-center flex-col text-blue-400 hover:underline" target="_blank" rel="noopener noreferrer">
+                <a href="https://x.com/aminoDR" className="flex items-center flex-col text-blue-400 hover:underline" target="_blank" rel="noopener noreferrer">
                     <IconTwitter/>
-                    Twitter
-                </a>
-                <a href="" className="flex items-center flex-col text-blue-400 hover:underline" target="_blank" rel="noopener noreferrer">
-                    <IconInstagram/>
-                    Instagram
+                    X
                 </a>
         </div>
                 
