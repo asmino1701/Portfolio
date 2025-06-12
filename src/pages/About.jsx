@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function About() {
   return (
     <section id="about" className="flex flex-col justify-center items-center text-center container mx-auto py-8">

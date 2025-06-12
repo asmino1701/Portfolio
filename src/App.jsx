@@ -6,6 +6,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Skills from './pages/Skills';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <main className="font-sans scroll-smooth transition-colors duration-500 bg-gray-900 text-white">
           <Home id="home"/>
           <Projects id="projects" />
+          <Skills id="skills"/>
           <About id="about"/>
           <Contact id="contact"/>
         </main>
