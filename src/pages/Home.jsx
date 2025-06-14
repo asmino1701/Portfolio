@@ -2,7 +2,7 @@
 import {Anchor, GradientButton} from "../components/Buttons/Button";
 export default function Home() {
   return (
-    <section id="home-hero" className="min-h-screen flex flex-col items-center justify-center text-center p-6 sm:pt-8 relative overflow-hidden">
+    <section id="home-hero" className="min-h-screen flex flex-col items-center justify-center text-center py-8 px-6 relative overflow-hidden">
         <div className="flex h-screen items-center justify-center bg-gray-900 p-5">
             <div className="items-center gap-10 md:px-10">
             <div className="flex items-center justify-center">

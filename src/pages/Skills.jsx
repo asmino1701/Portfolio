@@ -8,7 +8,7 @@ export default function Skills() {
         return acc;
     }, {});
   return (
-    <section id="skills" className="flex flex-col items-center justify-center text-center container mx-auto py-8">
+    <section id="skills" className="flex flex-col items-center justify-center text-center container mx-auto py-8 px-6">
       <div className="max-w-5xl flex-row">
         <h2 className="text-3xl font-bold mb-6">Skills</h2>
         {Object.entries(groupedSkills).map(([type, skillsOfType]) => (

@@ -2,10 +2,10 @@ import { IconLinkedIn, IconGitHub, IconTwitter, Email } from "../components/icon
 
 export default function Contact() {
 return (
-<section id="contact" className="flex flex-col justify-center items-center text-center container mx-auto py-8">
+<section id="contact" className="flex flex-col justify-center items-center text-center container mx-auto py-8 px-6">
     <div className="max-w-5xl">
         <h2 className="text-3xl font-bold mb-6">Contact</h2>
-        <p className="text-gray-700 mb-4 flex text-white">
+        <p className="text-gray-700 mb-4 flex text-white justify-center">
             If you want to get in touch with me, you can send me an email&nbsp;
             <a href="mailto:andresmino1701@gmail.com" className="text-blue-500 hover:underline flex hover:text-emerald-600">
                 here&nbsp;<Email/>
