@@ -1,9 +1,10 @@
 export default function MySkills({ skill }) {
     return (
-        <div className="bg-white rounded-lg shadow-md p-3 flex flex-col items-center justify-center transition-transform transform hover:scale-105">
-            <img src={skill.image} alt={skill.title} className="w-16 h-16 mx-auto mb-4" />
-            <span className="text-emerald-600 text-
-            l font-bold">{skill.title}</span>
+        <div className="group flex w-28 flex-col items-center gap-3 rounded-xl border border-slate-700/70 bg-slate-800/50 p-4 shadow-lg transition duration-300 hover:-translate-y-1 hover:border-emerald-500/60 hover:shadow-xl hover:shadow-emerald-500/10">
+            <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-lg bg-white/95 p-2">
+                <img src={skill.image} alt={skill.title} loading="lazy" className="h-full w-full object-contain" />
+            </div>
+            <span className="text-center text-sm font-semibold text-emerald-300">{skill.title}</span>
         </div>
     );
 }
