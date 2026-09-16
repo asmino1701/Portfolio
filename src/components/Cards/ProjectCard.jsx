@@ -55,10 +55,10 @@ export default function ProjectCard({ project }) {
               href={project.link}
               target="_blank"
               rel="noopener noreferrer"
-              aria-label={`View project: ${project.title}`}
+              aria-label={`${project.linkLabel || "View project"}: ${project.title}`}
               className="inline-flex items-center gap-1.5 self-start text-sm font-semibold text-emerald-400 transition-colors hover:text-emerald-300"
             >
-              View project
+              {project.linkLabel || "View project"}
               <IconArrowUpRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
             </a>
           ) : (

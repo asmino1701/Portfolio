@@ -4,7 +4,8 @@ export const projects = [
     description: "Multi-tenant loyalty and cashback platform for businesses in Ecuador. Monorepo with a NestJS REST API, a customer web portal and an admin dashboard, deployed on AWS with Terraform.",
     tags: ["NestJS", "Next.js", "PostgreSQL", "Prisma", "Redis", "AWS", "Terraform"],
     image: null,
-    link: "https://github.com/asmino1701/cashback-saas"
+    link: "https://reback.app",
+    linkLabel: "Visit reback.app"
   },
   {
     title: "AMC — Execution Management",
@@ -39,7 +40,7 @@ export const projects = [
     description: "Interactive product demo platform in the spirit of Arcade: a hotspot editor and a responsive player that turns a sequence of screenshots into a guided, clickable walkthrough. Four Docker services orchestrated with compose.",
     tags: ["Next.js", "Fastify", "PostgreSQL", "MinIO", "Docker"],
     image: null,
-    link: "https://github.com/asmino1701/web-emul"
+    link: null
   },
   {
     title: "GitHub Random Repository",
