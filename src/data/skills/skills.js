@@ -35,6 +35,21 @@ export const skills = [
     type: "Programming Languages & Frameworks/Libraries"
   },
   {
+    title: "TypeScript",
+    image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+    type: "Programming Languages & Frameworks/Libraries"
+  },
+  {
+    title: "Next.js",
+    image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+    type: "Programming Languages & Frameworks/Libraries"
+  },
+  {
+    title: "NestJS",
+    image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg",
+    type: "Programming Languages & Frameworks/Libraries"
+  },
+  {
     title: "CSS3",
     image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
     type: "Styling Languages"
@@ -52,6 +67,16 @@ export const skills = [
   {
     title: "MS SQL Server",
     image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg",
+    type: "Databases"
+  },
+  {
+    title: "PostgreSQL",
+    image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
+    type: "Databases"
+  },
+  {
+    title: "Prisma",
+    image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg",
     type: "Databases"
   },
   {
@@ -89,5 +114,15 @@ export const skills = [
     title: "Postman",
     image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg",
     type: "More Tools"
-  }
+  },
+  {
+    title: "Docker",
+    image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
+    type: "More Tools"
+  },
+  {
+    title: "AWS",
+    image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+    type: "More Tools"
+  },
 ];
