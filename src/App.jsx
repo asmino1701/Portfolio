@@ -1,5 +1,3 @@
-import './styles/App.scss'
-import React from 'react';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import About from './pages/About';
@@ -9,21 +7,18 @@ import Footer from './components/Footer';
 import Skills from './pages/Skills';
 
 function App() {
-
   return (
-    <>
-      <div className="flex flex-col min-h-screen">
-        <Header />
-        <main className="font-sans scroll-smooth transition-colors duration-500 bg-gray-900 text-white">
-          <Home id="home"/>
-          <Projects id="projects" />
-          <Skills id="skills"/>
-          <About id="about"/>
-          <Contact id="contact"/>
-        </main>
-        <Footer />
-      </div>
-    </>
+    <div className="flex min-h-screen flex-col">
+      <Header />
+      <main className="flex-1">
+        <Home />
+        <Projects />
+        <Skills />
+        <About />
+        <Contact />
+      </main>
+      <Footer />
+    </div>
   )
 }
 

@@ -1,19 +1,35 @@
-import React from "react";
 import { projects } from "../data/projects/projects";
-import ProjectCard from "../components/Cards/ProjectCard";
+import ProjectCard, { EarlierCard } from "../components/Cards/ProjectCard";
+
+const selected = projects.filter((project) => project.group !== "earlier");
+const earlier = projects.filter((project) => project.group === "earlier");
 
 export default function Projects() {
   return (
-    <section id="projects" className="flex flex-col justify-center items-center text-center py-16 px-6 transition-colors duration-500 ease-in-out bg-slate-900 text-slate-300 container mx-auto">
-      <h2 className="text-3xl font-bold mb-2 text-white">Projects</h2>
-      <p className="mb-10 max-w-2xl text-slate-400">
-        A selection of the products I have built, from multi-tenant SaaS platforms to internal tools.
-      </p>
-      <div className="grid w-full max-w-6xl grid-cols-1 items-stretch gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {projects.map((project, idx) => (
-          <ProjectCard key={idx} project={project} />
+    <section id="projects" className="mx-auto max-w-[1180px] px-4 pt-28 pb-32">
+      <div className="mb-14 flex flex-col items-center gap-2.5 text-center">
+        <h2 className="font-serif text-[clamp(40px,5vw,60px)] leading-none">
+          Selected <em>work</em>
+        </h2>
+        <p className="text-[15px] text-muted">Products I&apos;ve built, from multi-tenant SaaS to internal tools.</p>
+      </div>
+
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+        {selected.map((project, idx) => (
+          <ProjectCard key={project.title} project={project} featured={idx === 0} />
         ))}
       </div>
+
+      {earlier.length > 0 && (
+        <div className="mt-18 flex flex-col gap-5">
+          <h3 className="font-mono text-xs tracking-[0.18em] text-muted uppercase">Earlier &amp; academic</h3>
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
+            {earlier.map((project) => (
+              <EarlierCard key={project.title} project={project} />
+            ))}
+          </div>
+        </div>
+      )}
     </section>
   );
 }

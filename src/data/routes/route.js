@@ -1,9 +1,5 @@
 export const route = [
     {
-        title: "Home",
-        href: "#home",
-    },
-    {
         title: "Projects",
         href: "#projects",
     },
@@ -12,11 +8,7 @@ export const route = [
         href: "#skills",
     },
     {
-        title: "About Me",
+        title: "About",
         href: "#about",
     },
-    {
-        title: "Contact",
-        href: "#contact",
-    }
 ];
